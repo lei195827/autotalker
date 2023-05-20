@@ -8,7 +8,7 @@ from tqdm import tqdm
 import openai
 
 openai.proxy = "127.0.0.1:7890"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 class QdrantDataUploader:
